@@ -28,6 +28,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         glSurfaceView = new MyGLSurfaceView(this);
         setContentView(glSurfaceView);
+
     }
 
     @Override
