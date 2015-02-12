@@ -11,5 +11,4 @@ android:
 before_script:
   # Create and start emulator
 
-script: - ./gradlew build
-        - ./gradlew connectedAndroidTest
+script: ./gradlew connectedAndroidTest
