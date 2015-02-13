@@ -18,7 +18,6 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     }
 
     public void testMegaTest() throws Exception {
-        assertTrue("Zdarova", true);
-        assertFalse("Zdarova 2", true);
+        assertFalse("Zdarova", true);
     }
 }
