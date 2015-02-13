@@ -12,8 +12,8 @@ notifications:
   email:
     recipients:
         - dimka-sark@yandex.ua
-    on_success: # default: never
-    on_failure: # default: always
+    on_success: never
+    on_failure: always
 
 before_script:
   # Create and start emulator
