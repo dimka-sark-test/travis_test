@@ -11,7 +11,7 @@ android:
 notifications:
   email:
     recipients:
-        - dimkasark@gmail.com
+        - dimka-sark@yandex.ua
     on_success: [always|never|change] # default: never
     on_failure: [always|never|change] # default: always
 
