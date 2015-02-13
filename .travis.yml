@@ -15,6 +15,10 @@ notifications:
     on_success: never
     on_failure: always
 
+    template:
+          - "%{repository} (%{commit}) : %{message} %{foo} "
+          - "Build details: %{build_url}"
+
 before_script:
   # Create and start emulator
   - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
